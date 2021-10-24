@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>材光系學會</title>
+    <script async src = '\"//dn-lbststic.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"'></script>
+
+    <script language = "javascript">
+
+        alert("歡迎來到材光系學會，良心建議使用手機開啟")
+    </script>
+
+    <title>Document</title>
+    <style type="text/css">
+
+        body{
+            font-family: 微軟正黑體;
+            font-size: 130%;
+            background-color: rgba(201, 201, 201, 0.336);
+            font-weight: bold;
+            margin: auto;
+        }
+
+        .maintext ul{
+            list-style-type: none;
+            display: inline-block;
+            width: 20%;
+        }
+
+        .maintext ul li{
+            display: flex;
+            justify-content: center;
+            margin-top: 5%;
+            background-color: rgba(72, 167, 211, 0.5);
+            border-radius: 5%;
+            box-shadow: gray 0.05em 0.05em 0.1em;
+        }
+
+        a {
+            text-decoration: none;
+            white-space: nowrap;
+            color: aliceblue;
+            text-shadow: gray 0.05em 0.05em 0.1em;
+        }
+
+        .maintext{
+            position: relative;
+            text-align: center;
+        }
+
+        #title{
+            display: flex;
+            justify-content: center;
+            background-color: rgba(100, 147, 201, 0.521);
+            font-size: 140%;
+            color: #fff;
+            text-shadow: gray 0.05em 0.05em 0.1em;
+        }
+        
+        .marqee {
+            height: 3em;
+            margin: 0 auto;
+            overflow: hidden; /*超出的文字：隱藏*/
+            position: relative;
+            background: rgba(121, 179, 245, 0.521);
+            box-shadow: gray 0.05em 0.05em 0.1em;
+            }
+
+        .marqee > ul {
+            padding-left: 0;
+            display: flex;
+            list-style-type: none;
+            animation: marqee 15s linear infinite;
+            position: absolute;
+        }
+
+        .marqee > ul > li {
+            white-space: nowrap; /*空白處：強制不換行*/
+            margin-right: 2em;
+            font-weight: bold;
+            color: #fff;
+            text-shadow: gray 0.05em 0.05em 0.1em;
+        }
+
+        @keyframes marqee {
+            0% {
+                left: 100%;
+                transform: translateX(0%);
+            }
+
+            100% {
+                left: 0;
+                transform: translateX(-100%);
+            }
+        }
+
+        .footer{
+            background-color:rgba(100, 147, 201, 0.521);
+            color: #fff;
+            text-align: center;
+            font-size: 50%;
+            text-shadow: gray 0.05em 0.05em 0.1em;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        .news{
+            text-align: center;
+            font-size: 115%;
+            margin-top: 1em;
+            margin-bottom: -0.5em;
+            text-shadow: gray 0.05em 0.05em 0.1em;
+        }
+
+        .newscontent{
+            text-align: center;
+            font-size: 90%;
+        }
+
+        .newscontent ul{
+            list-style-type: none;
+        }
+
+
+        @media (max-width:600px) {
+            .maintext ul{
+                width: 85%;
+            }
+            .maintext a{
+                text-align: center;
+                margin-left: -0.5em;
+            }
+            .maintext ul li{
+                margin-left: -2em;
+            }
+            .warn{
+                font-size: 100%;
+            }
+            .newscontent{
+            text-align: left;
+            font-size: 90%;
+            } 
+            .newscontent ul{
+                list-style-type: square;
+            }
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div id="title">中山材光系學會</div>
+    <div class="marqee">
+        <ul>
+            <li>歡迎來到中山材光系學會</li>
+            <li>近期進行的活動有：</li>
+            <li>系服徵稿</li>
+            <li>期初迎新</li>
+            <li>敬請多多參與</li>
+        </ul>
+    </div>
+    <div class="news">最新消息!!</div>
+    <div class="newscontent">
+        <ul>
+            <li><span style="color: red;">new</span>系服限制五版，詳情請看連結</li>
+            <li>10/28 19:00 ~ 21:30為期初迎新</li>
+            <li>10/30 23:59為系服徵稿截止</li>
+            <li>不用手機開這網站一定跑版你信不信</li>
+        </ul>
+    </div>
+    <hr>
+    <div class="maintext">
+        <ul>
+            <li>
+                <div class="text"><a href="https://www.facebook.com/notes/933262597197862/" target="blank">系服限制規則</a></div>
+            </li>
+            <li>
+                <div class="text"><a href="https://forms.gle/GcFKWVJUXQTdLndm8" target="blank">系服意見調查</a></div>
+            </li>
+        </ul>
+    </div>
+    <div class="footer">
+        中山大學材料與光電科學系學會<br>聯絡我們：MOES1139487@gmail.com<br>本網站由彦製作，很爛但請不要ddos
+    </div>
+</body>
+</html>
